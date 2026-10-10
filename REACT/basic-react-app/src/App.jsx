@@ -1,13 +1,17 @@
 import "./App.css";
-import Title from "./Title.jsx";
-import ProductTab from "./ProductTab.jsx";
-
-function Desc(){
-return <h1>This is Discription</h1>
-}
+// import Title from "./Title.jsx";
+ import ProductTab from "./ProductTab.jsx";
+// import MsgBox from "./MsgBox";
+import Button from "./Button.jsx";
 
 function App() {
-return <ProductTab />;
+return (
+<>
+    {/* <h2>Blockbuster Deals | Shop Now</h2>
+    <ProductTab/> */}
+    < Button />
+</>
+);
 }
 
 export default App;
